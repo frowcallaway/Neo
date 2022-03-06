@@ -14,7 +14,7 @@
 
 # Requirements
 
-1. A Github account
+1.A Github account
 
 2.Git
 
