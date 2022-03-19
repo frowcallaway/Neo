@@ -1,6 +1,6 @@
 # RULES WHEN SUBMITTING YOUR CODE
 
-1. All code should have comments if your patner doesn't know the specific language.
+1. All code should have comments if your partner doesn't know the specific language.
 
 2. Only push your code to Github if you're sure that your code is fine.
 
