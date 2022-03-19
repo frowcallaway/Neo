@@ -1,6 +1,5 @@
-# It will be used later
 import Mods
-# This is the code for signing in and logging in 
+# This is the computer which uses mods.py as features and a sign up and log in page
 # Read then comment down here
 # Your comment
 if_acc = 0
@@ -18,7 +17,7 @@ def createacc():
         if_acc += 1
         acc = a + str(b) and 1
     print("You have created a new account")
-    print("Your account is:" + a)
+    print("Your account is: " + a)
     print("Make sure to verify by logging in")
     o = input("Do you want to log in? ")
     if o == "yes":
@@ -35,3 +34,12 @@ def createacc():
 
 if if_acc == 0:
     createacc()
+    if_acc = 1
+
+if if_acc == 1:
+   print("Welcome to the computer. Please select an application")
+   o = input("1.Calculator\n2.Number guessing game: ")
+   if o == "Calculator" or "calculator":
+       Mods.calculator()
+   if o == "number guessing game" or "Number guessing game":
+       Mods.numberGuessingGame()

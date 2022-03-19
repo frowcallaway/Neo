@@ -1,11 +1,7 @@
 let man = {
     name: "John",
     age: 60,
-    hobby: "Football"
+    hobby: "Singing"
 };
 
-console.log(man);
-
-man.hobby = "Coding";
-
-console.log(man)
+console.log(man.hobby[1]);
